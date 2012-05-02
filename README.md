@@ -42,7 +42,7 @@ The parameters mean:
    key's characters were repeated this many times.
  - enc: this is the mode, 'enc' for encryption and 'dec' for decryption
  - everything else: This is the message that is exchanged by the parties. any funny characters are stripped (including spaces). 'X' characters are padded at the end to have a number of plaintext
-   characters that are a round power of 5 (5, 10, 25 etc)
+   characters that are a round multiple of 5 (5, 10, 25 etc). To be clear: Only characters A-Z are allowed, everything else is stripped out.
 
 
 
